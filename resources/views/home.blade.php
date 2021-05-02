@@ -8,4 +8,5 @@
 
 @section('content')
     <p>You are logged in!</p>
+    <p>Usuario autenticado: {{ auth()->user()->email }}</p>
 @stop
